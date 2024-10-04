@@ -1,5 +1,3 @@
-# modules/monitoring/main.tf
-
 resource "aws_cloudwatch_metric_alarm" "primary_alb_health" {
   provider            = aws.primary
   alarm_name          = "${var.environment}-primary-alb-health"

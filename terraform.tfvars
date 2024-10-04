@@ -1,4 +1,3 @@
-# terraform.tfvars
 
 # Region configuration
 primary_region   = "us-west-2"
@@ -19,8 +18,8 @@ secondary_private_subnet_cidrs = ["10.1.4.0/24", "10.1.5.0/24", "10.1.6.0/24"]
 
 # EC2 configuration
 instance_type    = "t2.micro"
-primary_ami_id   = "ami-0c55b159cbfafe1f0" # Amazon Linux 2 AMI ID for us-west-2
-secondary_ami_id = "ami-0947d2ba12ee1ff75" # Amazon Linux 2 AMI ID for us-east-1
+primary_ami_id   = "ami-0c55b159cbfafe1f0" 
+secondary_ami_id = "ami-0947d2ba12ee1ff75" 
 
 # RDS configuration
 db_instance_class = "db.t3.micro"

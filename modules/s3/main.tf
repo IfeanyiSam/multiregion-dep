@@ -1,5 +1,3 @@
-# modules/s3/main.tf
-
 resource "aws_s3_bucket" "gudlyf" {
   bucket = var.bucket_name
   acl    = "private"

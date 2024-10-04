@@ -1,5 +1,3 @@
-# modules/load_balancer/variables.tf
-
 variable "environment" {
   description = "The deployment environment"
 }

@@ -1,5 +1,3 @@
-# modules/load_balancer/outputs.tf
-
 output "global_accelerator_dns_name" {
   description = "The DNS name of the Global Accelerator"
   value       = aws_globalaccelerator_accelerator.gudlyf.dns_name

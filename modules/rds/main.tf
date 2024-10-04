@@ -1,5 +1,3 @@
-# modules/rds/main.tf
-
 resource "aws_db_subnet_group" "gudlyf" {
   name       = "${var.environment}-db-subnet-group"
   subnet_ids = var.subnet_ids

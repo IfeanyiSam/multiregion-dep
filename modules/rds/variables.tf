@@ -1,5 +1,3 @@
-# modules/rds/variables.tf
-
 variable "region" {
   description = "The AWS region"
 }

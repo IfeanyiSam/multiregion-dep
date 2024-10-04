@@ -1,4 +1,4 @@
-# variables.tf
+
 variable "primary_vpc_cidr" {
   description = "CIDR block for the primary VPC"
   type        = string
@@ -97,15 +97,7 @@ variable "primary_subnet_cidrs" {
   description = "List of CIDR blocks for primary subnets"
   type        = list(string)
 }
-/*variable "primary_private_subnet_cidrs" {
-  description = "List of CIDR blocks for primary private subnets"
-  type        = list(string)
-}
 
-variable "secondary_private_subnet_cidrs" {
-  description = "List of CIDR blocks for secondary private subnets"
-  type        = list(string)
-}*/
 
 variable "secondary_subnet_cidrs" {
   description = "List of CIDR blocks for secondary subnets"
@@ -127,19 +119,6 @@ variable "db_name" {
   description = "The name of the database to create"
   type        = string
 }
-/*
-variable "db_username" {
-  description = "Username for the database"
-  type        = string
-}
-
-variable "db_password" {
-  description = "Password for the database"
-  type        = string
-  sensitive   = true
-}*/
-
-# In your variables.tf file
 
 variable "lb_internal" {
   type        = bool

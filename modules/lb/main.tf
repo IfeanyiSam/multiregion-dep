@@ -1,5 +1,3 @@
-# modules/load_balancer/main.tf
-
 resource "aws_globalaccelerator_accelerator" "gudlyf" {
   name            = "${var.environment}-accelerator"
   ip_address_type = "IPV4"

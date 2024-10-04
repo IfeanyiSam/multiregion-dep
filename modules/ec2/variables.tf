@@ -1,5 +1,3 @@
-# modules/ec2/variables.tf
-
 variable "region" {
   description = "The AWS region"
 }

@@ -1,5 +1,3 @@
-# modules/monitoring/variables.tf
-
 variable "environment" {
   description = "The deployment environment"
 }
